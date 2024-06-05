@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+      </div>
+    </div>
+    <div id="score-container">
+      <div id="score-home">
+        <p id="home">0</p>
+      </div>
+      <div id="score-guest">
+        <p id="guest">0</p>
+      </div>
+    </div>
+    <div class="button-container">
+      <div class="home-btn">
+        <div class="btn-container">
+          <button class="increment-btn" onclick="incrementHomeScoreOne()">
+            +1
+          </button>
+          <button class="increment-btn" onclick="incrementHomeScoreTwo()">
+            +2
+          </button>
+          <button class="increment-btn" onclick="incrementHomeScoreThree()">
+            +3
+          </button>
+        </div>
+      </div>
+      <div class="guest-btn">
+        <div class="btn-container">
+          <button class="increment-btn" onclick="incrementGuestScoreOne()">
+            +1
+          </button>
+          <button class="increment-btn" onclick="incrementGuestScoreTwo()">
+            +2
+          </button>
+          <button class="increment-btn" onclick="incrementGuestScoreThree()">
+            +3
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="reset">
+      <button class="clean" onclick="resetScores()">RESET</button>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
